@@ -36,6 +36,11 @@
               <i class="icon-desktop"></i>
               desktop
             </div>
+            <div class="visitor-count" id="tablet-count">
+              <span class="text-feature" id="traffic-count">&nbsp;</span>
+              <i class="icon-tablet"></i>
+              tablet
+            </div>
             <span>Current visitors</span>
           </span>
         </div>
@@ -124,6 +129,9 @@
           </div>
           <div class="visitor-types desktop">
             <i class="icon desktop icon-desktop"></i> {{ numberFormat visits.desktop }}
+            </div>
+          <div class="visitor-types tablet">
+            <i class="icon desktop icon-tablet"></i> {{ numberFormat visits.tablet }}
           </div>
           </em>
         </li>
