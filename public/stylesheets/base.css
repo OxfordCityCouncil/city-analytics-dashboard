@@ -59,7 +59,9 @@ h2 {
     .bricks .brick h2, .bricks .brick div.box {
       padding: 0 16px; }
     .bricks .brick h2.brick-heading {
-      padding-top: 1em; }
+      padding-top: 1em; 
+      color: #007483;
+    }
     .bricks .brick ul, .bricks .brick li {
       margin: 0;
       padding: 0;
@@ -72,7 +74,8 @@ h2 {
       margin: 0;
       padding: 0.5em 0;
       list-style: none;
-      line-height: 1; }
+      line-height: 1;
+      font-size: 1.4em; }
       .bricks .brick .content ul li a {
         color: #b44c03;
         text-decoration: none; }
