@@ -94,6 +94,7 @@ h2 {
         opacity: 0.7; }
       .bricks .brick .search-terms ul li a {
         color: #b44c03;
+        font-size: 0.8em;
         text-decoration: none; }
   .bricks .device-type {
     width: 5px;
@@ -126,7 +127,7 @@ h2 {
     .bricks .searches ul li:nth-child(1) {
       opacity: 1.0; }
     .bricks .searches ul li:nth-child(2) {
-      opacity: 0.7; }
+      opacity: 0.8; }
   .bricks .popular li {
     clear: both; }
     .bricks .popular li em {
