@@ -54,7 +54,7 @@
             ykeys: ['desktop', 'mobile', 'tablet'],
             labels: ['Desktop', 'Mobile', 'Tablet'],
             stacked: true,
-            barColors: ["#2176bd", "#B26E00", "#087582"],
+            barColors: ["#034695", "#B26E00", "#087582"],
             hideHover: 'always',
             xLabelFormat: function(data){
               return "";
