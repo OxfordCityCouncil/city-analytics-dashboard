@@ -66,6 +66,7 @@ h2 {
     .bricks .brick h2.brick-heading {
       padding-top: 1em; 
       color: #007483;
+      background-color: #fff;
     }
     .bricks .brick ul, .bricks .brick li {
       margin: 0;
@@ -255,7 +256,8 @@ h2 {
       color: #fff;
       margin: 0 auto;
       padding: 0.3em 1em;
-      margin-bottom: 5px;}
+      margin-bottom: 5px;
+      margin-top: 5px; }
       .traffic #traffic .visitor-count#mobile-count {
         background: #B26E00;
         color: #fff;
