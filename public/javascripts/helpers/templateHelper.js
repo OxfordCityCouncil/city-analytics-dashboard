@@ -2,6 +2,7 @@ window.templateHelper = {
   templates: [],
   deviceClasses: {
     'mobile': 'icon-mobile-phone',
+    'tablet': 'fa-tablet',
     'desktop': 'icon-desktop'
   },
   deviceCategoryClass: function(deviceCategory) {
