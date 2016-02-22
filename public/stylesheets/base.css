@@ -28,7 +28,12 @@ h1 {
   font-size: 2em !important; }
 
 h2 {
-  margin: 0; }
+  background-color: #034695;
+  margin-bottom: 5px;
+  color: white;
+  margin: 0; 
+  padding: 0.3em;
+}
 
 .brick.badge-heading {
   background-image: none; }
@@ -153,7 +158,7 @@ h2 {
 
 .top-bar {
   background: #fff;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border-radius: 3px;
   color: #000;
   clear: both;
@@ -231,7 +236,7 @@ h2 {
   .traffic #traffic-count-graph {
     height: 200px; }
   .traffic #graph-text {
-    text-align: left;
+    text-align: centre;
     color: #00000;}
   .traffic .graph {
     float: left;
