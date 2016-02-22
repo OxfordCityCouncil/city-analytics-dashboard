@@ -40,19 +40,24 @@
         var users = parseRows(data.rows);
         var activeUsers = parseInt(users['DESKTOP'], 10) | 0;
         var activeUsersMobile = parseInt(users['MOBILE'], 10) | 0;
+        var activeUsersTablet = parseInt(users['TABLET'], 10) | 0;
         traffic.el.innerHTML = activeUsers;
         traffic.elMob.innerHTML = activeUsersMobile;
+        traffic.elTab.innerHTML = activeUsersTablet;
 
         var dataArray = helper.arrayFromObject(traffic.counts);
+        
+        console.log(dataArray);
+        
         if(typeof traffic.chart === 'undefined'){
           traffic.chart = new Morris.Bar({
             data: dataArray,
             element: 'traffic-count-graph',
             xkey: 'date',
-            ykeys: ['desktop', 'mobile'],
-            labels: ['Desktop', 'Mobile'],
+            ykeys: ['desktop', 'mobile', 'tablet'],
+            labels: ['Desktop', 'Mobile', 'Tablet'],
             stacked: true,
-            barColors: ["#265C8D", "#B26E00"],
+            barColors: ["#2176bd", "#B26E00", "#015545"],
             hideHover: 'always',
             xLabelFormat: function(data){
               return "";
@@ -68,6 +73,7 @@
     init: function(){
       traffic.el = document.getElementById('traffic-count');
       traffic.elMob = document.getElementById('traffic-count-mobile');
+      traffic.elTab = document.getElementById('traffic-count-tablet');
       traffic.graphEl = document.getElementById('traffic-count-graph');
       traffic.counts.length = traffic.points;
 
