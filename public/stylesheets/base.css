@@ -247,13 +247,17 @@ h2 {
     float: left; }
     .traffic #traffic .visitor-count {
       background-color: #087582;
+      color: #fff;
       margin: 0 auto;
-      padding: 0.3em 1em; }
+      padding: 0.3em 1em;
+      margin-bottom: 5px;}
       .traffic #traffic .visitor-count#mobile-count {
         background: #B26E00;
+        color: #fff;
         margin-bottom: 5px;}
       .traffic #traffic .visitor-count#desktop-count {
         background: #2176bd;
+        color: #fff;
         margin-bottom: 5px; }
 
 .sparkline path {
