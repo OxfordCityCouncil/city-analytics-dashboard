@@ -30,6 +30,15 @@ h1 {
 h2 {
   margin: 0; }
 
+a:link, a:visited {
+  color: #b44c03;
+}
+
+a:hover, a:active, a:focus {
+  color: #142f6d;
+  text-decoration: underline
+}
+
 .brick.badge-heading {
   background-image: none; }
 
