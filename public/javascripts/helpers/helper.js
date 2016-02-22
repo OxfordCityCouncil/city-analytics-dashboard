@@ -60,10 +60,11 @@ window.helper = {
     return results;
   },
   deviceResult: function(resultsLength) {
-    var results = {"desktop": new Array(resultsLength), "mobile": new Array(resultsLength)};
+    var results = {"desktop": new Array(resultsLength), "mobile": new Array(resultsLength), "tablet": new Array(resultsLength)};
     for(var i=0;i<resultsLength;i++) {
       results.desktop[i] = 0;
       results.mobile[i] = 0;
+      results.tablet[i] = 0;
     }
     return results;
   },
