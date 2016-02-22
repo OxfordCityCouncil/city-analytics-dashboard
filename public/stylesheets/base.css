@@ -18,11 +18,11 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background-color: #000;
+  background-color: #FFFFFF;
   padding: 0;
   margin: 0;
-  color: #F2F2F2;
-  font-family: 'Bitter', serif; }
+  color: #00000;
+  font-family: 'Helvetica', sans-serif;
 
 h1 {
   font-size: 2em !important; }
@@ -221,7 +221,7 @@ h2 {
   .traffic #traffic-count-graph {
     height: 200px; }
   .traffic #graph-text {
-    text-align: right; }
+    text-align: left; }
   .traffic .graph {
     float: left;
     width: 80%; }
