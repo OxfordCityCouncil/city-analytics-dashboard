@@ -46,9 +46,6 @@
         traffic.elTab.innerHTML = activeUsersTablet;
 
         var dataArray = helper.arrayFromObject(traffic.counts);
-        
-        console.log(dataArray);
-        
         if(typeof traffic.chart === 'undefined'){
           traffic.chart = new Morris.Bar({
             data: dataArray,
