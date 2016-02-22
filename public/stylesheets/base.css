@@ -250,7 +250,8 @@ h2 {
       margin: 0 auto;
       padding: 0.3em 1em; }
       .traffic #traffic .visitor-count#mobile-count {
-        background: #B26E00; }
+        background: #B26E00;
+        margin-bottom: 5px;}
       .traffic #traffic .visitor-count#desktop-count {
         background: #2176bd;
         margin-bottom: 5px; }
