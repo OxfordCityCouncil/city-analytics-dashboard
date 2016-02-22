@@ -78,6 +78,7 @@ h2 {
       font-size: 1.4em; }
       .bricks .brick .content ul li a {
         color: #b44c03;
+        font-size: 0.8em;
         text-decoration: none; }
     .bricks .brick .search-terms ul li {
       margin: 0;
@@ -133,6 +134,7 @@ h2 {
       .bricks .popular li em .visitor-types {
         float: left;
         color: #fff;
+        font-size: 0.8em;
         padding: 0.3em;
         margin: 0 0.4em 0 0; }
         .bricks .popular li em .visitor-types.mobile {
