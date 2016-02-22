@@ -100,7 +100,7 @@ h2 {
     .bricks .device-type.mobile, .bricks .device-type.tablet {
       background: #B26E00; }
     .bricks .device-type.desktop {
-      background: #265c8d; }
+      background: #2176bd; }
   .bricks .link {
     padding-left: 1em; }
     .bricks .link i {
@@ -135,7 +135,7 @@ h2 {
         .bricks .popular li em .visitor-types.mobile {
           background: #B26E00; }
         .bricks .popular li em .visitor-types.desktop {
-          background: #265c8d; }
+          background: #2176bd; }
       .bricks .popular li em .device-type {
         width: 5px;
         height: 1em;
@@ -221,7 +221,8 @@ h2 {
   .traffic #traffic-count-graph {
     height: 200px; }
   .traffic #graph-text {
-    text-align: left; }
+    text-align: left;
+    color: #00000;}
   .traffic .graph {
     float: left;
     width: 80%; }
@@ -240,7 +241,7 @@ h2 {
       .traffic #traffic .visitor-count#mobile-count {
         background: #B26E00; }
       .traffic #traffic .visitor-count#desktop-count {
-        background: #265c8d;
+        background: #2176bd;
         margin-bottom: 5px; }
 
 .sparkline path {
