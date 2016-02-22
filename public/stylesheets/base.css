@@ -30,15 +30,6 @@ h1 {
 h2 {
   margin: 0; }
 
-a:link, a:visited {
-  color: #b44c03;
-}
-
-a:hover, a:active, a:focus {
-  color: #142f6d;
-  text-decoration: underline
-}
-
 .brick.badge-heading {
   background-image: none; }
 
@@ -83,7 +74,7 @@ a:hover, a:active, a:focus {
       list-style: none;
       line-height: 1; }
       .bricks .brick .content ul li a {
-        color: inherit;
+        color: #b44c03;
         text-decoration: none; }
     .bricks .brick .search-terms ul li {
       margin: 0;
