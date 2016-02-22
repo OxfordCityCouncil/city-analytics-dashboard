@@ -142,6 +142,9 @@ h2 {
           background: #B26E00; }
         .bricks .popular li em .visitor-types.desktop {
           background: #2176bd; }
+        .bricks .popular li em .visitor-types.tablet {
+          background: #087582;
+        }  
       .bricks .popular li em .device-type {
         width: 5px;
         height: 1em;
@@ -243,6 +246,7 @@ h2 {
   .traffic #traffic {
     float: left; }
     .traffic #traffic .visitor-count {
+      background-color: #087582;
       margin: 0 auto;
       padding: 0.3em 1em; }
       .traffic #traffic .visitor-count#mobile-count {
